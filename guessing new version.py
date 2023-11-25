@@ -12,7 +12,7 @@ while True:
     v= xentry.get()
     if int(v)==int(q):
         
-        b=tmsg.showinfo('info','you guessed it right')
+        b=tmsg.showinfo('info','you guessed it right') 
         rot=Tk()
         def dd():
             global n
@@ -55,5 +55,6 @@ while True:
  xentry.grid(row=1,column=1)
 
  Button(text='check',command=best,font=('comicsansms',15,'bold'),fg='blue',bg='grey').grid(row=3,column=1,padx=12,pady=8)
+ print('ok')
  root.mainloop()
 
